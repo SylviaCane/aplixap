@@ -3,7 +3,7 @@
 body {
   display: grid;
   min-height: 100vh;
-  grid-template-rows: auto 1fr auto;
+  grid-template-rows: 0.25fr 0.20fr 1.80fr 0.25fr;
 }
 
 /* Inicio de la cabecera de página */
@@ -126,9 +126,15 @@ svg {
 
  /* Inicio de pie de página */
 
- .footer {
+ .container2  {
+  display: grid;
+  place-items: center;
+ }
+
+ #bottonBar {
   background-color: gainsboro;
-  height: 80px;
+  height: 100px;
+  width: auto;
   padding: 01px 01px 01px 01px;
   margin: 0px;
   border-top: 01px solid silver;
@@ -138,14 +144,13 @@ svg {
 .footer__title{
   text-align: center;
   font-weight: 300;
-  margin: 10px;
+  margin: 30psx;
 }
 
 .lista2 {
   display: flex;
   justify-content: space-around;
-  padding: 05px;
-  margin: 05px;
+  padding: 0px;
 }
 
 .lista2 li {
@@ -383,6 +388,11 @@ td{
 }
 /* Fin de Sección Nosotros */
 
+#grilla {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 75vh;
+}
 
 /* Fin de Diseno Mobile */
 
@@ -483,6 +493,12 @@ td{
   }
 
    /* Inicio de pie de página */
+
+   .container2  {
+    display: grid;
+    place-items: center;
+   }
+
    .footer {
     background-color: gainsboro;
     height: 80px;
@@ -789,6 +805,12 @@ td{
   }
   
   /* Inicio de pie de página */
+
+  .container2  {
+    display: grid;
+    place-items: center;
+  }
+
   .footer {
     background-color: gainsboro;
     padding: 10px 05px 05px 05px;
@@ -844,7 +866,7 @@ td{
     justify-content:flex-start;
   }
   
-  .grilla {
+  #grilla {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     height: 75vh;

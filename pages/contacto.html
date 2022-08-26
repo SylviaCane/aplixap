@@ -4,98 +4,103 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- CSS ONLY --> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+     <!-- LINK DE MI CSS --> 
     <link rel="stylesheet" href="../styles/styles.css">
     <link rel="stylesheet" href="../styles/reset.css">
     <title>Contacto - Aplixap</title>
 </head>
-<body>
-   <header class=header>
-      <h1 class="header__titulo"> APLIXAP </h1>
-      <nav class=header__nav>
-        <!-- Lista no ordenada -->
-        <ul class="nav__listas">
-         <li>
-            <a href="../index.html">Inicio</a>
-         </li>
-         <li>
-            <a href="../pages/contacto.html"><b>Contacto</b></a>
-         </li>
-         <li>
-            <a href="../pages/sobrenosotros.html">Sobre nosotros</a>
-         </li>
-         <li>
-            <a href="../pages/servicios.html">Servicios</a>
-         </li>
-         <li>
-            <a href="../pages/clientes.html">Clientes</a>
-         </li>
-        </ul>
-      </nav>
-    </header>
+
+<body class="bodyContact">
+   <header class=container>
+      <div classs="row">
+        <nav class="navbar navbar-expand-lg bg-light">
+           <div class="container-fluid">
+             <a class="navbar-brand" href="#">APLIXAP </a>
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+             </button>
+             <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav">
+                 <li class="nav-item">
+                   <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link" href="../pages/sobrenosotros.html">Sobre Nosotros</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link" href="../pages/servicios.html">Servicios</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link" href="../pages/clientes.html">Clientes</a>
+                 </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                 </li>
+               </ul>
+             </div>
+           </div>
+         </nav>
+      </div>
+     </header>
     
   <h2 class="subtitulos" id="sub4"> Formulario de contacto</h2>
 
   <!-- Formulario -->
 
-  <section>
-   <div class="maincontainer">
-      <div class="secondcontainer"></div>
-      <div class="secondcontainer">
-         <form>
-            <div id="parte1">
-              <h3 id="formTitle">Datos de contacto</h3>
-              <br />
-              <label for="nombre">Nombre</label>
-              <br />
-              <input id="nombre" type="text" placeholder="Ingresa tu nombre">
-              <br />
-              <label for="apellido">Apellido</label>
-              <br />
-              <input id="apellido" type="text" placeholder="Ingresa tu apellido">
-              <br />
-              <label>Selecciona tu país</label>
-              <br />
-              <select>
-                  <option>Panamá</option>
-                  <option>Honduras</option>
-                  <option>Nicaragua</option>
-                  <option>República Dominicana</option>
-                  <option>Guatamela</option>
-                  <option>Venezuela</option>
-                  <option>Colombia</option>
-                  <option>Otro</option>
-              </select>
-              <br />
-              <label for="Empresa">Empresa</label>
-              <br />
-              <input id="Empresa" type="text" placeholder="Nombre de la empresa">
-              <br />
-              <label for="tel">Teléfono</label>
-              <br />
-              <input id="tel" type="tel" placeholder="Ingresa tu teléfono">
-              <br />
-              <label for="mail">Correo</label>
-              <br />
-              <input id="mail" type="text" placeholder="Ingresa tu dirección de Correo">
-              <br />
-              <label for="Mensaje">Mensaje</label>
-              <br />
-              <textarea id="Mensaje" placeholder="Mensaje"></textarea>
-              <br />
-              <input id="cta2" type="reset" value="Cancelar">
-              <input id="cta1" type="submit" value="Aceptar">
-              <br />
-            </div>
-         </form>
+  <div class="container2">
+   <form class="row2">
+      <div class="row mb-3">
+        <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+        <div class="col-sm-10">
+          <input type="email" class="form-control" id="inputEmail3">
+        </div>
       </div>
-      <div class="secondcontainer"></div>
+      <div class="row mb-3">
+        <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+        <div class="col-sm-10">
+          <input type="password" class="form-control" id="inputPassword3">
+        </div>
+      </div>
+      <fieldset class="row mb-3">
+        <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
+        <div class="col-sm-10">
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+            <label class="form-check-label" for="gridRadios1">
+              Contactarme vía mail
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+            <label class="form-check-label" for="gridRadios2">
+              Contactarme para vía telefónica
+            </label>
+          </div>
+        </div>
+      </fieldset>
+      <div class="row mb-3">
+        <div class="col-sm-10 offset-sm-2">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck1">
+            <label class="form-check-label" for="gridCheck1">
+              Example checkbox
+            </label>
+          </div>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Sign in</button>
+    </form>
    </div>
-  </section>
   
 
-  <footer class="footer">
+  <footer id="bottonBar"class="footer">
    <h4 class="footer__title"> Enlaces </h4>
- <!-- Lista no ordenada-->
+   
+   <!-- Lista no ordenada-->
    <ul id="pieDepagina" class="lista2">
        <li>
           <a href="../index.html">Inicio</a>
@@ -110,7 +115,11 @@
           <a href="https://www.aplixap.com" target="blank">Redes sociales</a>
        </li>
       </ul>
-  </footer>
+ </footer>
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
  
  </body>
 </html>
