@@ -15,13 +15,13 @@ body {
   height: 80px;
 }
 
-.header__titulo {
-  background-color: whitesmoke;
+.navbar-brand {
   color: black;
   text-align: left;
   font-family: Lora;
-  font-weight:lighter;
+  font-weight:;
   padding-left: 25px;
+  font-size: x-large;
 }
 
 .header__nav {
@@ -53,14 +53,15 @@ body {
   background-color: azure;
 }
 
-.header__nav ul li a{
+.navbar-nav {
   color: royalblue;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 16px;
+  font-family: Lora;
 }
 
-.header__nav ul li a:hover {
-  font-weight: 600;
+.navbar-nav:hover {
+  background-color: steelblue;
 }
 
 .gridGeneral {
@@ -81,6 +82,7 @@ body {
   border: 03px solid ghostwhite;
   background-color: ghostwhite;
   padding: 20px;
+  font-family: Lora;
 }
 
 .border:hover {
@@ -134,7 +136,7 @@ svg {
  #bottonBar {
   background-color: gainsboro;
   height: 100px;
-  width: auto;
+  width: 100%;
   padding: 01px 01px 01px 01px;
   margin: 0px;
   border-top: 01px solid silver;
@@ -143,8 +145,10 @@ svg {
 
 .footer__title{
   text-align: center;
+  margin-top: 20px;
   font-weight: 300;
-  margin: 30psx;
+  font-size: medium;
+  font-family: Lora;
 }
 
 .lista2 {
@@ -188,7 +192,7 @@ svg {
 
 /* Inicio Formulario de contacto */
   
- form {
+form {
   display: flexbox;
   flex-direction: column;
   padding: 15px;
@@ -306,10 +310,7 @@ input {
 }
 
 #imgERP {
-  position: relative;
-  margin-top: 20px;
-  margin-left: 20px;
-  width: 120px;
+  opacity: 0.75;
 }
 
 #tablemobile {
@@ -357,8 +358,9 @@ td{
 
  /* Inicio de Sección Nosotros */
 
- .nosotros {
-  height: auto;
+.nosotros {
+  display: grid;
+  grid-template-rows: 0.25fr 1.50fr 0.25fr;
 }
 
 .noscont {
@@ -371,7 +373,6 @@ td{
   background-color:lightblue;
   color: rgb(35, 35, 35);
 }
-
 
 #heroimage {
   opacity: 0.75;
@@ -388,10 +389,16 @@ td{
 }
 /* Fin de Sección Nosotros */
 
-#grilla {
+.grilla {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.25fr 1.50fr 0.25fr;
   height: 75vh;
+}
+
+.bodyContact {
+  display: grid;
+  grid-template-rows: 0.25fr 1.85fr 0.25fr;
+  height: 100vh;
 }
 
 /* Fin de Diseno Mobile */
@@ -411,13 +418,13 @@ td{
     height: 80px;
   }
   
-  .header__titulo {
-    background-color: whitesmoke;
+  .navbar-brand {
     color: black;
     text-align: left;
     font-family: Lora;
+    font-weight:;
     padding-left: 25px;
-    font-weight: lighter;
+    font-size: x-large;
   }
   
   .header__nav {
@@ -449,14 +456,15 @@ td{
     background-color: azure;
   }
   
-  .header__nav ul li a{
+  .navbar-nav {
     color: royalblue;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 16px;
+    font-family: Lora;
   }
   
-  .header__nav ul li a:hover {
-    font-weight: 600;
+  .navbar-nav:hover {
+    background-color: steelblue;
   }
 
   /* Fin de la cabecera de página */
@@ -509,8 +517,10 @@ td{
   
   .footer__title{
     text-align: center;
+    margin-top: 20px;
     font-weight: 300;
-    margin: 10px;
+    font-size: medium;
+    font-family: Lora;
   }
   
   .lista2 {
@@ -562,7 +572,7 @@ td{
     width: 350px;
   }
 
-   .maincontainer {
+  .maincontainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -590,10 +600,7 @@ td{
   /* Inicio de Tabla de servicios */
   
   #imgERP {
-  position: relative;
-  margin-top: 20px;
-  margin-left: 200px;
-  margin-bottom: 30px;
+    opacity: 0.75;
   }
 
   #equipoERP {
@@ -635,7 +642,8 @@ td{
   /* Inicio de Sección Nosotros */
 
   .nosotros {
-    height: 100vh;
+    display: grid;
+    grid-template-rows: 0.25fr 1.50fr 0.25fr;
   }
   
   .noscont {
@@ -649,7 +657,6 @@ td{
   #heroimage {
     opacity: 0.75;
     width: 600px;
-    padding-left: 80px;
   }
   
   #description {
@@ -711,12 +718,13 @@ td{
     padding: 15px;
   }
   
-  .header__titulo {
-    background-color: whitesmoke;
+  .navbar-brand {
     color: black;
     text-align: left;
     font-family: Lora;
-    font-weight: lighter;
+    font-weight:;
+    padding-left: 25px;
+    font-size: x-large;
   }
   
   .header__nav {
@@ -754,9 +762,17 @@ td{
     font-size: 12px;
   }
   
-  .header__nav ul li a:hover {
-    font-weight: 600;
+  .navbar-nav {
+    color: royalblue;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Lora;
   }
+  
+  .navbar-nav:hover {
+    background-color: steelblue;
+  }
+  
   /* Fin de la cabecera de página */
   
   .subtitulos {
@@ -806,21 +822,27 @@ td{
   
   /* Inicio de pie de página */
 
-  .container2  {
+  #contForm {
     display: grid;
     place-items: center;
   }
 
   .footer {
     background-color: gainsboro;
-    padding: 10px 05px 05px 05px;
-    margin: 0px;
+    height: 100px;
+    width: 1280px;
+    padding: 0px;
+    margin: 10px;
     border-top: 01px solid silver;
+
   }
   
   .footer__title{
     text-align: center;
+    margin-top: 20px;
     font-weight: 300;
+    font-size: medium;
+    font-family: Lora;
   }
   
   .lista2 {
@@ -958,11 +980,7 @@ td{
   }
 
   #imgERP {
-    position: relative;
-    margin-top: 20px;
-    margin-left: 550px;
-    margin-bottom: 30px;
-    width: 300px;
+    opacity: 0.75;
     }
 
   #equipoERP {
@@ -996,18 +1014,26 @@ td{
 
   /* Inicio de Sección Nosotros */
 
+  #sub6 {
+    padding-left: 50px;
+  }
+
+  .nosotros {
+    display: grid;
+    grid-template-rows: 0.25fr 1fr 0.25fr;
+  }
+
   .noscont {
     display: grid;
-    grid-template-columns: auto 1fr auto;
-    grid-template-columns: 1fr 0.5fr;
+    grid-template-columns: 0.25fr 1.25fr;
     grid-column-gap: 10px;
     padding: 10px;
-    margin: 20px;
+    margin: 30px;
   }
   
   #heroimage {
     opacity: 0.75;
-    width: 800px;
+    width: 550px;
   }
   
   #description {
@@ -1026,6 +1052,8 @@ td{
     opacity: 0.85;
     border: 03px solid cornflowerblue;
   }
+
+
 
 }
 /* Fin de Diseno para Desktop */
