@@ -53,14 +53,24 @@ body {
 }
 
 .navbar-nav {
-  color: royalblue;
   text-decoration: none;
   font-size: 16px;
   font-family: Lora;
 }
 
-.navbar-nav:hover {
-  background-color: steelblue;
+.navbar-nav .nav-item .nav-link:hover {
+  background-color: mediumseagreen;
+  color: aliceblue;
+}
+
+.logoCont {
+  width: 120px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#logo {
+  width: 120px;
 }
 
 .gridGeneral {
@@ -87,10 +97,6 @@ body {
 .border:hover {
   opacity: 0.85;
   border: 03px solid cornflowerblue ;
-}
-
-svg {
-  display: none;
 }
 
 .subtitulos {
@@ -375,6 +381,12 @@ td{
 
 #heroimage {
   opacity: 0.75;
+  width: 300px;
+}
+
+.img {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #description {
@@ -425,35 +437,6 @@ td{
     font-size: x-large;
   }
   
-  .header__nav {
-    display: flex;
-    position: fixed;
-    right: 35px;
-    top: 20px;
-    background-color: ghostwhite;
-    padding: 03px 03px 03px 03px;
-    width: 335px; 
-    border: 01px solid silver;
-  }
-  
-  .header__nav ul {
-    list-style-type: none;
-    padding-left: 12px;
-  }
-  
-  .header__nav li {
-    display: inline-block;
-    background-color: whitesmoke;
-    border: 01px solid royalblue;
-    border-radius: 05px;
-    padding: 04px;
-    margin: 02px 02px 02px 02px; 
-  }
-  
-  .header__nav ul li:hover {
-    background-color: azure;
-  }
-  
   .navbar-nav {
     color: royalblue;
     text-decoration: none;
@@ -461,8 +444,19 @@ td{
     font-family: Lora;
   }
   
-  .navbar-nav:hover {
-    background-color: steelblue;
+  .navbar-nav .nav-item .nav-link:hover {
+    background-color: mediumseagreen;
+    color: aliceblue;
+  }
+  
+  .logoCont {
+    width: 120px;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  #logo {
+    width: 120px;
   }
 
   /* Fin de la cabecera de página */
@@ -483,10 +477,6 @@ td{
     border: 03px solid ghostwhite;
     background-color: ghostwhite;
     padding: 20px;
-  }
-
-  svg {
-    display: none;
   }
 
   .subtitulos {
@@ -654,7 +644,7 @@ td{
   
   #heroimage {
     opacity: 0.75;
-    width: 600px
+    width: 350px;
   }
   
   #description {
@@ -724,41 +714,6 @@ td{
     font-size: x-large;
   }
   
-  .header__nav {
-    display: flex;
-    position: fixed;
-    right: 40px;
-    top: 10px;
-    background-color: ghostwhite;
-    padding: 03px 03px 03px 03px;
-    width: 335px; 
-    border: 01px solid silver;
-  }
-  
-  .header__nav ul {
-    list-style-type: none;
-    padding-left: 12px;
-  }
-  
-  .header__nav li {
-    display: inline-block;
-    background-color: whitesmoke;
-    border: 01px solid royalblue;
-    border-radius: 05px;
-    padding: 04px;
-    margin: 02px 02px 02px 02px; 
-  }
-  
-  .header__nav ul li:hover {
-    background-color: azure;
-  }
-  
-  .header__nav ul li a{
-    color: royalblue;
-    text-decoration: none;
-    font-size: 12px;
-  }
-  
   .navbar-nav {
     color: royalblue;
     text-decoration: none;
@@ -766,8 +721,9 @@ td{
     font-family: Lora;
   }
   
-  .navbar-nav:hover {
-    background-color: steelblue;
+  .navbar-nav .nav-item .nav-link:hover {
+    background-color: mediumseagreen;
+    color: aliceblue;
   }
   
   /* Fin de la cabecera de página */
@@ -809,12 +765,6 @@ td{
   @font-face {
     font-family: Lora;
     src: url("../fonts/Lora-Regular.ttf");
-  }
-  
-  svg {
-    margin: 20px 02px 02px 20px;
-    color: gray;
-    height: 35px;
   }
   
   /* Inicio de pie de página */
@@ -1023,14 +973,14 @@ td{
   .noscont {
     display: grid;
     grid-template-columns: 0.25fr 1.25fr;
-    grid-column-gap: 10px;
+    grid-column-gap: 20px;
     padding: 10px;
     margin: 30px;
   }
   
   #heroimage {
     opacity: 0.75;
-    width: 550px;
+    width: 700px;
   }
   
   #description {
