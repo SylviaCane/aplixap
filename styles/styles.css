@@ -15,6 +15,8 @@ body {
   height: 80px;
 }
 
+/** Antiguo Navbar
+
 .navbar-brand {
   color: black;
   text-align: left;
@@ -51,6 +53,8 @@ body {
 .header__nav ul li:hover {
   background-color: azure;
 }
+
+**/
 
 .navbar-nav {
   text-decoration: none;
@@ -140,6 +144,8 @@ body {
 
  #bottonBar {
   background-color: gainsboro;
+  position: fixed;
+  bottom: 0;
   height: 100px;
   width: 100%;
   padding: 01px 01px 01px 01px;
@@ -370,7 +376,7 @@ td{
 
 .noscont {
   display: grid;
-  grid-template-rows: 0.5fr 1fr;
+  grid-template-rows: 0.5fr 1fr 0.25fr;
   grid-row-gap: 10px;
 }
 
@@ -636,7 +642,7 @@ td{
   
   .noscont {
     display: grid;
-    grid-template-rows: 0.5fr 1fr;
+    grid-template-rows: 0.5fr 1fr 0.25fr;
     grid-row-gap: 10px;
     padding: 10px;
     margin: 10px;
@@ -928,6 +934,10 @@ td{
 
   #imgERP {
     opacity: 0.75;
+    width: 1280px;
+    position: relative;
+    left: 200px;
+    right: auto;
     }
 
   #equipoERP {
