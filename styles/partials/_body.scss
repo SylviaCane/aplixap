@@ -1,0 +1,76 @@
+#main {
+    display: grid;
+    grid-template-rows: 25% 75%; 
+    row-gap: 30px;
+    margin: 40px;
+  }
+  
+  .border {
+    border: 03px solid ghostwhite;
+    background-color: ghostwhite;
+    padding: 20px;
+    font-family: $mainFont;
+    &:hover {
+        opacity: 0.85;
+        border: 03px solid cornflowerblue ;
+    }
+  }
+  
+  .subtitulos {
+    color: royalblue;
+    font-size: medium;
+    font-style: normal;
+    font-family: Lora;
+    font-weight: 200;
+    font-size: larger;
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+  }
+  
+  .subtitulos2 {
+    color: royalblue;
+    font-size: medium;
+    font-weight: 400;
+    font-family: Lora;
+    font-weight: 200;
+  }
+
+  .nosotros {
+    display: grid;
+    grid-template-rows: 0.25fr 1.50fr 0.25fr;
+  }
+
+  .noscont {
+    display: grid;
+    grid-template-rows: 0.5fr 1fr 0.25fr;
+    grid-row-gap: 10px;
+  }
+
+  #heroimage {
+    opacity: 0.75;
+    width: 800px;
+    text-align: center;
+  }
+
+  .img {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+  }
+
+  #description {
+    background-color: ghostwhite;
+    padding: 40px;
+    margin-bottom: 10px;
+    vertical-align: center;
+    text-align: center;
+    font-family: Lora;
+    font-size: small;
+    line-height: 2.0;
+  }
+  
+  #description:hover {
+    background-color:lightblue;
+    color: rgb(35, 35, 35);
+  }

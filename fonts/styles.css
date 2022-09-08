@@ -95,7 +95,7 @@ body {
   border: 03px solid ghostwhite;
   background-color: ghostwhite;
   padding: 20px;
-  font-family: Lora;
+  font-family: $mainFont;
 }
 
 .border:hover {

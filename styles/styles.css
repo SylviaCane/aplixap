@@ -1,5 +1,151 @@
-logoCont {
+.logoCont {
   width: 120px;
   text-align: center;
   vertical-align: middle;
+}
+.logoCont #logo {
+  width: 120px;
+}
+
+ul {
+  text-decoration: none;
+  font-size: 16px;
+  font-family: Lora;
+}
+a ul li:hover {
+  background-color: mediumseagreen;
+  color: aliceblue;
+}
+
+@media screen and (min-width: 600px) {
+  .logoCont {
+    width: 120px;
+    text-align: center;
+    vertical-align: middle;
+  }
+}
+#bottonBar {
+  background-color: gainsboro;
+  position: fixed;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  padding: 1px 1px 1px 1px;
+  margin: 0px;
+  border-top: 1px solid silver;
+  /* margin-top: auto */
+}
+
+.footer__title {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 300;
+  font-size: medium;
+  font-family: Lora;
+}
+
+.lista2 {
+  display: flex;
+  justify-content: space-around;
+  padding: 0px;
+}
+.lista2 li {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+a .lista2 li:hover {
+  color: cornflowerblue;
+  font-family: Lora;
+  font-size: small;
+  text-decoration: none;
+  width: 200px;
+  padding: 5px;
+  color: mediumseagreen;
+}
+
+#main {
+  display: grid;
+  grid-template-rows: 25% 75%;
+  row-gap: 30px;
+  margin: 40px;
+}
+
+.border {
+  border: 3px solid ghostwhite;
+  background-color: ghostwhite;
+  padding: 20px;
+  font-family: Lora;
+}
+.border:hover {
+  opacity: 0.85;
+  border: 3px solid cornflowerblue;
+}
+
+.subtitulos {
+  color: royalblue;
+  font-size: medium;
+  font-style: normal;
+  font-family: Lora;
+  font-weight: 200;
+  font-size: larger;
+  text-align: center;
+  margin: 20px 0px 0px 0px;
+}
+
+.subtitulos2 {
+  color: royalblue;
+  font-size: medium;
+  font-weight: 400;
+  font-family: Lora;
+  font-weight: 200;
+}
+
+.nosotros {
+  display: grid;
+  grid-template-rows: 0.25fr 1.5fr 0.25fr;
+}
+
+.noscont {
+  display: grid;
+  grid-template-rows: 0.5fr 1fr 0.25fr;
+  grid-row-gap: 10px;
+}
+
+#heroimage {
+  opacity: 0.75;
+  width: 800px;
+  text-align: center;
+}
+
+.img {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+}
+
+#description {
+  background-color: ghostwhite;
+  padding: 40px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: Lora;
+  font-size: small;
+  line-height: 2;
+}
+
+#description:hover {
+  background-color: lightblue;
+  color: rgb(35, 35, 35);
+}
+
+.navbar-nav {
+  text-decoration: none;
+  font-size: 16px;
+  font-family: Lora;
+}
+.nav-link .navbar-nav nav-item:hover {
+  background-color: mediumseagreen;
+  color: aliceblue;
 }/*# sourceMappingURL=styles.css.map */

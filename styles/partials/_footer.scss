@@ -1,0 +1,40 @@
+#bottonBar {
+    background-color: gainsboro;
+    position: fixed;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    padding: 01px 01px 01px 01px;
+    margin: 0px;
+    border-top: 01px solid silver;
+    /* margin-top: auto */;
+  }
+
+  .footer__title{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: medium;
+    font-family: Lora;
+  }
+  
+  .lista2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+    li {
+        padding: 0px;
+        margin: 0px;
+        list-style-type: none;
+        a &:hover{
+            color: cornflowerblue;
+            font-family: Lora;
+            font-size: small;
+            text-decoration: none;
+            width: 200px;
+            padding: 05px;
+            color: mediumseagreen;
+        }
+    }
+  }
+  
