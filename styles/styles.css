@@ -168,7 +168,7 @@ a .lista2 li:hover {
   color: white;
 }
 
-.primario, .secundario, .button {
+.primario, .secundario, .base {
   border: none;
   padding: 10px;
   border-radius: 3px;

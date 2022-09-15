@@ -1,0 +1,10 @@
+@mixin buttons($bgColor, $textColor, $borderColor) {
+    border: none;
+    padding: $padding;
+    background-color: $bgColor;
+    color: $textColor;
+    border-radius: 03px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 03px solid $borderColor;
+    cursor: pointer;
+}

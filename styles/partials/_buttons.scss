@@ -10,7 +10,6 @@
     color: white;
 }
 
-.button {
-    @include botones($bgcolor: cadetblue, $textColor: lightgreen, $bordeColor: brown)
+.base {
+    @extend %botonPpal;
 }
-
