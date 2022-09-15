@@ -1,0 +1,29 @@
+%botonPpal {
+    border: none;
+    padding: 10px;
+    border-radius: 03px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 03px solid;
+    cursor: pointer;
+}
+
+%flexRowCenter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+%flexRowAround {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+%flexColumnCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

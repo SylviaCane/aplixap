@@ -129,6 +129,7 @@ a .lista2 li:hover {
   background-color: ghostwhite;
   padding: 40px;
   margin-bottom: 10px;
+  vertical-align: center;
   text-align: center;
   font-family: Lora;
   font-size: small;
@@ -148,4 +149,30 @@ a .lista2 li:hover {
 .nav-link .navbar-nav nav-item:hover {
   background-color: mediumseagreen;
   color: aliceblue;
+}
+
+.divBlock {
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.primario {
+  background-color: teal;
+  color: white;
+}
+
+.secundario {
+  background-color: cadetblue;
+  color: white;
+}
+
+.primario, .secundario, .button {
+  border: none;
+  padding: 10px;
+  border-radius: 3px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-bottom: 3px solid;
+  cursor: pointer;
 }/*# sourceMappingURL=styles.css.map */

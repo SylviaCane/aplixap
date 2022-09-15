@@ -1,8 +1,16 @@
-.button {
-    border: none;
-    padding: 10px;
-    border-radius: 03px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border-bottom: 03px solid;
-    cursor: progress;
+.primario {
+    @extend %botonPpal;
+    background-color: teal;
+    color: white;
 }
+
+.secundario {
+    @extend %botonPpal;
+    background-color: cadetblue;
+    color: white;
+}
+
+.button {
+    @include botones($bgcolor: cadetblue, $textColor: lightgreen, $bordeColor: brown)
+}
+
