@@ -11,5 +11,10 @@
 }
 
 .base {
-    @extend %botonPpal;
+    @include buttons($bgColor: whitesmoke, $textColor: cornflowerblue, $borderColor: cornflowerblue, $radius:true);
+    &:hover{
+        @include buttons($bgColor: cornflowerblue, $textColor: whitesmoke, $borderColor: powderblue, $radius:true);
+        font-weight: 500;
+    }
 }
+

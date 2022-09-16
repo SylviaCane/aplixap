@@ -4,3 +4,14 @@
     justify-content: space-around;
     align-items: center;
 }
+
+.prueba {
+    @include flex($justify: space-evenly, $align:center, $height:405px, $width:1024px, $wrap: true);
+    border: 02px solid powderblue;
+    background-color: lightblue;
+    padding: 40px;
+    div {
+        @include flex($justify: space-around, $align:center, $height:200px, $width:200px);
+        border: none;
+    }
+}
