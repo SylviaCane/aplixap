@@ -69,6 +69,7 @@ a .lista2 li:hover {
   grid-template-rows: 25% 75%;
   row-gap: 30px;
   margin: 40px;
+  padding-bottom: 100px;
 }
 
 .border {
@@ -210,6 +211,9 @@ a .lista2 li:hover {
   border-radius: 3px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border-bottom: 3px solid cornflowerblue;
+  position: absolute;
+  top: 345px;
+  left: 1150px;
   cursor: pointer;
   border-radius: 5px;
 }
@@ -221,6 +225,9 @@ a .lista2 li:hover {
   border-radius: 3px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border-bottom: 3px solid powderblue;
+  position: absolute;
+  top: 345px;
+  left: 1150px;
   cursor: pointer;
   border-radius: 5px;
   font-weight: 500;
