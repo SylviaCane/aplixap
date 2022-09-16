@@ -153,9 +153,12 @@ a .lista2 li:hover {
 
 .divBlock {
   height: 400px;
-  display: flex;
+  display: grid;
+  grid-row: 2;
+  grid-column: 1;
   justify-content: space-around;
   align-items: center;
+  margin-bottom: 100px;
 }
 
 .prueba {
@@ -175,10 +178,18 @@ a .lista2 li:hover {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 350px;
   flex-wrap: nowrap;
   border: none;
+  padding: 25px;
+}
+
+.heroStatement {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(35, 35, 35);
+  font-size: xx-large;
+  padding-left: 20px;
 }
 
 .primario {
