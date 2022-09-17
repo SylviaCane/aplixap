@@ -1,0 +1,120 @@
+/* Inicio Formulario de contacto */
+  
+ #contForm{
+    text-align: center;
+    margin-top: 50px;
+ }
+
+ form {
+    display: flexbox;
+    flex-direction: column;
+    padding: 15px;
+    margin: 15px;
+    width: 500px;
+  }
+
+  #sub4 {
+    padding-top: 35px;
+    font-size: x-large;
+  }
+
+  .btn {
+    position: relative;
+    left: 210px;
+  }
+
+  #formTitle {
+    color: rgb(48, 48, 48);
+    padding-left: 20px;
+  }
+  
+  label {
+    padding-left: 20px;
+  }
+  
+  select {
+    margin-left: 20px;
+    background-color: whitesmoke;
+    border-radius: 05px;
+    font-style: oblique;
+    box-sizing: border-box;
+    padding: 05px 05px;
+    width: 250px;
+  }
+  
+  textarea {
+    margin-left: 20px;
+    background-color: whitesmoke;
+    border-radius: 05px;
+    font-style: oblique;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    width: 250px;
+    height: 150px;
+  }
+  
+  input {
+    background-color: whitesmoke;
+    border-radius: 05px solid rgb(193, 193, 193);
+    font-style: oblique;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    width: 250px;
+    margin-left: 20px;
+  }
+  
+  #parte1 {
+    font-family: Lora;
+    background-color: ghostwhite;
+    padding-bottom: 20px;
+    border: 02px solid cornflowerblue;
+    border-radius: 05px
+  }
+  
+  #cta2 {
+    background-color: white;
+    border: 1px solid cornflowerblue;
+    border-radius: 05px;
+    color: black;
+    padding: 02px;
+    margin-top: 10px;
+    width: 100px;
+    height: 50px;
+  }
+  
+  #cta2:hover {
+    background-color: gray;
+    color: whitesmoke;
+  }
+  
+  #cta1 {
+    background-color: azure;
+    border: 1px solid royalblue;
+    padding: 02px;
+    margin-top: 10px;
+    border-radius: 05px;
+    width: 100px;
+    height: 50px;
+  }
+  
+  #cta1:hover {
+    background-color: royalblue;
+  }
+  
+  .maincontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .secondcontainer {
+    flex: 1 1 150px; /*  Stretching: */
+    flex: 0 1 150px; /*  No stretching: */
+    margin: 5px
+  }
+
+  .row {
+    padding: 20px;
+  }
+  
+  /* Fin de Formulario de contacto */

@@ -21,8 +21,78 @@
 }
 
 .heroStatement {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Lora;
     color: rgb(35, 35, 35);
     font-size: xx-large;
     padding-left: 20px;
 }
+
+/* Inicio de Tabla Servicios */
+
+#tablemobile {
+    overflow-x: auto;
+    padding: 30px;
+    margin-bottom: 100px;
+    font-size: medium;
+    font-family: Lora;
+    text-align: center;
+}
+  
+.bodyser {
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 100vh;
+  }
+  
+  #sub5 {
+    text-align: left;
+    padding-left: 30px;
+    margin: 40px 05px 05px 05px;
+    font-size: x-large;
+    vertical-align: auto;
+    font-weight: 300;
+  }
+  
+  #imgERP {
+    opacity: 0.75;
+    text-align: center;
+  }
+  
+  table {
+    margin: 10px;
+    width: 95%;
+    height: 800px;
+    font-family: Lora;
+  }
+  
+  tr{
+    background-color: whitesmoke;
+    width: auto;
+    padding: 05px;
+    margin: 10px;
+    font-family: Lora;
+    font-weight: 100;
+  }
+  
+  tr:nth-child(even) {background-color: t}
+  
+  th{
+    border: 02px solid whitesmoke;
+    background-color: rgb(110, 212, 110);
+    width: auto;
+    padding: 05px;
+    margin: 10px;
+    font-family: Lora;
+    font-weight: 100;
+  }
+  
+  td{
+    border: 02px solid whitesmoke;
+    width: auto;
+    padding: 05px;
+    margin: 10px;
+    font-family: Lora;
+    font-weight: 100;
+  }
+  
+  /* Fin de Tabla Servicios */
