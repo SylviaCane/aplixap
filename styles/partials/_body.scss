@@ -16,26 +16,6 @@
         border: 03px solid cornflowerblue ;
     }
   }
-  
-  .subtitulos {
-    color: royalblue;
-    font-size: medium;
-    font-style: normal;
-    font-family: Lora;
-    font-weight: 200;
-    font-size: large;
-    text-align: center;
-  }
-  
-  .subtitulos2 {
-    color: royalblue;
-    font-size: medium;
-    font-weight: 400;
-    font-family: Lora;
-    font-weight: 200;
-    font-size: large;
-    padding: 30px 0px 0px 0px;
-  }
 
   .nosotros {
     display: grid;
@@ -71,11 +51,10 @@
     font-family: Lora;
     font-size: small;
     line-height: 2.0;
-  }
-  
-  #description:hover {
-    background-color:lightblue;
-    color: rgb(35, 35, 35);
+    &:hover {
+      background-color:lightblue;
+      color: rgb(35, 35, 35);
+    }
   }
 
   #main {
@@ -92,36 +71,20 @@
     font-family: Lora;
   }
 
-  #article1:hover {
-    background-color: skyblue;
-    color: rgb(35, 35, 35);
-    transform:scale(1.05)
+  #article1 {
+    &:hover {
+      background-color: skyblue;
+      color: rgb(35, 35, 35);
+      transform:scale(1.025)
+    }
   }
   
-  #aside1:hover {
-    background-color: thistle;
-    color: rgb(35, 35, 35);
-    transform:scale(1.05)
-  }
-
-  #sub3 {
-    margin-top: 40px;
-    font-size: x-large;
-  }
-
-  #sub5 {
-    margin-top: 40px;
-    font-size: x-large;
-  }
-
-  #sub6 {
-    margin-top: 40px;
-    font-size: x-large;
-  }
-
-  p{
-    margin-top: 40px;
-    font-size: large;
+  #aside1 {
+    &:hover {
+      background-color: thistle;
+      color: rgb(35, 35, 35);
+      transform:scale(1.025)
+    }
   }
 
   .figure-caption { 
