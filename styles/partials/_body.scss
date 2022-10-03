@@ -48,7 +48,7 @@
     margin-bottom: 10px;
     vertical-align: center;
     text-align: center;
-    font-family: Lora;
+    font-family: Syne;
     font-size: small;
     line-height: 2.0;
     &:hover {
@@ -68,7 +68,7 @@
     border: 03px solid ghostwhite;
     background-color: ghostwhite;
     padding: 20px;
-    font-family: Lora;
+    font-family: Syne;
   }
 
   #article1 {
@@ -91,3 +91,53 @@
     font-size:large;
     padding: 15px;
   }
+
+  .gridGeneral {
+    display: grid;
+    grid-template-rows: 8% 82% 8%;
+  }
+
+  .nosotros {
+    display: grid;
+    grid-template-rows: 0.25fr 1.50fr 0.25fr;
+  }
+
+  .bodySer {
+    display:grid;
+    grid-template-rows: 0.25fr 1.85fr 0.25fr;
+    height: 100vh;
+  }
+
+  .bodyClients{
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 100vh;
+  }
+
+  .bodyContact {
+    display: grid;
+    grid-template-rows: 0.25fr 1.50fr 0.25fr;
+    height: 100vh;
+  }
+
+  .contForm {
+    display: grid;
+    padding: 20px;
+    margin: 20px 20px 60px 20px;
+    place-items: center;
+  }
+
+  .grilla {
+    display: grid;
+    padding: 20px;
+    margin: 20px 20px 60px 20px;
+    place-items: center;
+  }
+
+
+
+
+  
+
+
+  

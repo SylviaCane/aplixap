@@ -1,3 +1,55 @@
+.subtitulos {
+  color: rgb(72, 72, 72);
+  font-size: medium;
+  font-style: normal;
+  font-family: Syne;
+  font-weight: 200;
+  font-size: large;
+  text-align: center;
+}
+
+.subtitulos2 {
+  color: royalblue;
+  font-size: medium;
+  font-weight: 400;
+  font-family: Syne;
+  font-weight: 200;
+  font-size: large;
+  padding: 30px 0px 0px 0px;
+}
+
+/* Texto - Inicio de Tabla Servicios */
+#sub5 {
+  text-align: left;
+  padding-left: 30px;
+  margin: 40px 5px 5px 5px;
+  font-size: x-large;
+  vertical-align: auto;
+  font-weight: 300;
+  font-family: Syne;
+}
+
+/* Texto - Fin de Tabla Servicios */
+#sub3 {
+  margin-top: 40px;
+  font-size: x-large;
+}
+
+#sub5 {
+  margin-top: 40px;
+  font-size: x-large;
+}
+
+#sub6 {
+  margin-top: 40px;
+  font-size: x-large;
+}
+
+p {
+  margin-top: 40px;
+  font-size: large;
+}
+
 .logoCont {
   width: 120px;
   text-align: center;
@@ -10,7 +62,7 @@
 ul {
   text-decoration: none;
   font-size: 16px;
-  font-family: Lora;
+  font-family: Syne;
 }
 a ul li:hover {
   background-color: mediumseagreen;
@@ -26,10 +78,11 @@ a ul li:hover {
 }
 #bottonBar {
   background-color: gainsboro;
-  position: fixed;
+  position: relative;
   bottom: 0;
   height: 100px;
   width: 100%;
+  align-self: flex-end;
   padding: 1px 1px 1px 1px;
   margin: 0px;
   border-top: 1px solid silver;
@@ -41,22 +94,22 @@ a ul li:hover {
   margin-top: 20px;
   font-weight: 300;
   font-size: medium;
-  font-family: Lora;
+  font-family: Syne;
 }
 
-.lista2 {
+#pieDepagina {
   display: flex;
   justify-content: space-around;
   padding: 0px;
 }
-.lista2 li {
+#pieDepagina li {
   padding: 0px;
   margin: 0px;
   list-style-type: none;
 }
-a .lista2 li:hover {
+a #pieDepagina li:hover {
   color: cornflowerblue;
-  font-family: Lora;
+  font-family: Syne;
   font-size: small;
   text-decoration: none;
   width: 200px;
@@ -76,31 +129,11 @@ a .lista2 li:hover {
   border: 3px solid ghostwhite;
   background-color: ghostwhite;
   padding: 20px;
-  font-family: Lora;
+  font-family: Syne;
 }
 .border:hover {
   opacity: 0.85;
   border: 3px solid cornflowerblue;
-}
-
-.subtitulos {
-  color: royalblue;
-  font-size: medium;
-  font-style: normal;
-  font-family: Lora;
-  font-weight: 200;
-  font-size: large;
-  text-align: center;
-}
-
-.subtitulos2 {
-  color: royalblue;
-  font-size: medium;
-  font-weight: 400;
-  font-family: Lora;
-  font-weight: 200;
-  font-size: large;
-  padding: 30px 0px 0px 0px;
 }
 
 .nosotros {
@@ -134,11 +167,10 @@ a .lista2 li:hover {
   margin-bottom: 10px;
   vertical-align: center;
   text-align: center;
-  font-family: Lora;
+  font-family: Syne;
   font-size: small;
   line-height: 2;
 }
-
 #description:hover {
   background-color: lightblue;
   color: rgb(35, 35, 35);
@@ -155,39 +187,19 @@ a .lista2 li:hover {
   border: 3px solid ghostwhite;
   background-color: ghostwhite;
   padding: 20px;
-  font-family: Lora;
+  font-family: Syne;
 }
 
 #article1:hover {
   background-color: skyblue;
   color: rgb(35, 35, 35);
-  transform: scale(1.05);
+  transform: scale(1.025);
 }
 
 #aside1:hover {
   background-color: thistle;
   color: rgb(35, 35, 35);
-  transform: scale(1.05);
-}
-
-#sub3 {
-  margin-top: 40px;
-  font-size: x-large;
-}
-
-#sub5 {
-  margin-top: 40px;
-  font-size: x-large;
-}
-
-#sub6 {
-  margin-top: 40px;
-  font-size: x-large;
-}
-
-p {
-  margin-top: 40px;
-  font-size: large;
+  transform: scale(1.025);
 }
 
 .figure-caption {
@@ -195,12 +207,55 @@ p {
   padding: 15px;
 }
 
+.gridGeneral {
+  display: grid;
+  grid-template-rows: 8% 82% 8%;
+}
+
+.nosotros {
+  display: grid;
+  grid-template-rows: 0.25fr 1.5fr 0.25fr;
+}
+
+.bodySer {
+  display: grid;
+  grid-template-rows: 0.25fr 1.85fr 0.25fr;
+  height: 100vh;
+}
+
+.bodyClients {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 100vh;
+}
+
+.bodyContact {
+  display: grid;
+  grid-template-rows: 0.25fr 1.5fr 0.25fr;
+  height: 100vh;
+}
+
+.contForm {
+  display: grid;
+  padding: 20px;
+  margin: 20px 20px 60px 20px;
+  place-items: center;
+}
+
+.grilla {
+  display: grid;
+  padding: 20px;
+  margin: 20px 20px 60px 20px;
+  place-items: center;
+}
+
 .navbar-nav {
   text-decoration: none;
   font-size: 16px;
-  font-family: Lora;
+  font-family: Syne;
 }
-.nav-link .navbar-nav nav-item:hover {
+
+.nav-link:hover {
   background-color: mediumseagreen;
   color: aliceblue;
 }
@@ -252,17 +307,8 @@ p {
   padding: 30px;
   margin-bottom: 100px;
   font-size: medium;
-  font-family: Lora;
+  font-family: Syne;
   text-align: center;
-}
-
-#sub5 {
-  text-align: left;
-  padding-left: 30px;
-  margin: 40px 5px 5px 5px;
-  font-size: x-large;
-  vertical-align: auto;
-  font-weight: 300;
 }
 
 #imgERP {
@@ -274,7 +320,7 @@ table {
   margin: 10px;
   width: 95%;
   height: 800px;
-  font-family: Lora;
+  font-family: Syne;
 }
 
 tr {
@@ -282,7 +328,7 @@ tr {
   width: auto;
   padding: 5px;
   margin: 10px;
-  font-family: Lora;
+  font-family: Syne;
   font-weight: 100;
 }
 
@@ -296,7 +342,7 @@ th {
   width: auto;
   padding: 5px;
   margin: 10px;
-  font-family: Lora;
+  font-family: Syne;
   font-weight: 100;
 }
 
@@ -305,7 +351,7 @@ td {
   width: auto;
   padding: 5px;
   margin: 10px;
-  font-family: Lora;
+  font-family: Syne;
   font-weight: 100;
 }
 
@@ -326,7 +372,7 @@ td {
   background-color: whitesmoke;
   color: cornflowerblue;
   border-radius: 3px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Syne;
   border-bottom: 3px solid cornflowerblue;
   position: absolute;
   top: 345px;
@@ -340,7 +386,7 @@ td {
   background-color: cornflowerblue;
   color: whitesmoke;
   border-radius: 3px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Syne;
   border-bottom: 3px solid powderblue;
   position: absolute;
   top: 345px;
@@ -363,6 +409,7 @@ td {
 #contForm {
   text-align: center;
   margin-top: 50px;
+  font-family: Syne;
 }
 
 form {
@@ -381,6 +428,7 @@ form {
 .btn {
   position: relative;
   left: 210px;
+  font-family: Syne;
 }
 
 #formTitle {

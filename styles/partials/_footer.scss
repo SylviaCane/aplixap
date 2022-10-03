@@ -1,24 +1,25 @@
 #bottonBar {
     background-color: gainsboro;
-    position: fixed;
+    position: relative;
     bottom: 0;
     height: 100px;
     width: 100%;
+    align-self: flex-end;
     padding: 01px 01px 01px 01px;
     margin: 0px;
     border-top: 01px solid silver;
     /* margin-top: auto */;
   }
 
-  .footer__title{
+  .footer__title {
     text-align: center;
     margin-top: 20px;
     font-weight: 300;
     font-size: medium;
-    font-family: Lora;
+    font-family: Syne;
   }
   
-  .lista2 {
+  #pieDepagina {
     display: flex;
     justify-content: space-around;
     padding: 0px;
@@ -28,7 +29,7 @@
         list-style-type: none;
         a &:hover{
             color: cornflowerblue;
-            font-family: Lora;
+            font-family: Syne;
             font-size: small;
             text-decoration: none;
             width: 200px;
