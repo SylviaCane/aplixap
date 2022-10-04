@@ -108,9 +108,10 @@
     height: 100vh;
   }
 
+  
   .bodyClients{
-    display:grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    display: flex;
+    grid-template-rows: 1fr 3fr 1fr;
     height: 100vh;
   }
 
@@ -129,13 +130,15 @@
 
   .grilla {
     display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px;
+    row-gap: 20px;
+    column-gap: 10px;
     padding: 20px;
     margin: 20px 20px 60px 20px;
     place-items: center;
+    background-color: rgb(232, 234, 222);
   }
-
-
-
 
   
 

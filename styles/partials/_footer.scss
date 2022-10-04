@@ -1,5 +1,5 @@
 #bottonBar {
-    background-color: gainsboro;
+    background-color:rgb(25, 32, 24);
     position: relative;
     bottom: 0;
     height: 100px;
@@ -12,6 +12,7 @@
   }
 
   .footer__title {
+    color: white;
     text-align: center;
     margin-top: 20px;
     font-weight: 300;
@@ -20,6 +21,7 @@
   }
   
   #pieDepagina {
+    color: white;
     display: flex;
     justify-content: space-around;
     padding: 0px;
@@ -30,11 +32,11 @@
         a &:hover{
             color: cornflowerblue;
             font-family: Syne;
+            font-weight: 500;
             font-size: small;
             text-decoration: none;
             width: 200px;
             padding: 05px;
-            color: mediumseagreen;
         }
     }
   }
