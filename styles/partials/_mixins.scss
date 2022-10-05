@@ -7,8 +7,9 @@
     font-family: Syne;
     border-bottom: 03px solid $borderColor;
     position: absolute;
-    top:345px;
+    top: 345px;
     left: 1150px;
+
     cursor: pointer;
     @if $radius {
         border-radius: 05px;

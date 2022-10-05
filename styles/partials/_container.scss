@@ -6,7 +6,8 @@
     justify-content: space-around;
     align-items: center;
     margin-bottom: 100px;
-}
+    position: absolute;
+} 
 
 .prueba {
     @include flex($justify: space-evenly, $align:center, $height:405px, $width:1024px, $wrap: true);
@@ -21,7 +22,7 @@
 }
 
 .heroStatement {
-    font-family: Lora;
+    font-family: Syne;
     color: rgb(35, 35, 35);
     font-size: xx-large;
     padding-left: 20px;

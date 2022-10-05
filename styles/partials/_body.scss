@@ -5,6 +5,25 @@
     margin: 40px;
     padding-bottom: 100px;
   }
+
+  @media screen and (min-width: 600px) {
+    #main {
+      display: grid;
+      grid-template-rows: 100vh; 
+      row-gap: 15px;
+      margin: 20px;
+      padding-bottom: 100px;
+    }
+  }
+
+  @media screen and (max-width:599px) and (orientation:landscape) {
+    #main {
+      display: grid;
+      grid-template-rows: 100%; 
+      row-gap: 15px;
+      margin: 20px;
+    }
+  }
   
   .border {
     border: 03px solid ghostwhite;
@@ -57,13 +76,6 @@
       background-color:lightblue;
       color: rgb(35, 35, 35);
     }
-  }
-
-  #main {
-    display: grid;
-    grid-template-rows: 25% 75%; 
-    row-gap: 30px;
-    margin: 40px;
   }
   
   .border {
